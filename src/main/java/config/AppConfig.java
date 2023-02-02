@@ -1,5 +1,11 @@
 package config;
 
-public class AppConfig {
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 
+@SpringBootApplication
+@ComponentScan ("com.example")
+public class AppConfig {
+	
+	
 }
